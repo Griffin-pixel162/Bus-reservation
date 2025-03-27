@@ -1,9 +1,16 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "tickets": [
+        {
+            "id": 1,
+            "title": "Ticket 1",
+            "description": "Description 1",
+            "status": "open"
+        },
+        {
+            "id": 2,
+            "title": "Ticket 2",
+            "description": "Description 2",
+            "status": "closed"
+        }
+    ]
 }
